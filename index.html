@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Bank Account</title>
+</head>
+
+<body>
+  <form id="form-One">
+    <div> <br>
+      <h3 id="head">Bank-Account</span> </h3> <br> <br> <br> <br>
+      <p id="qas">Online Account Opening</p>
+      <p id="qaz">Open an account online in minutes, withdraw from any <br>ATM and get realtime notifications after
+        every <br> transaction.</p>
+    </div>
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="300" height="300" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+      <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+    </svg>
+    <button type="submit" id="gun">Open Bank Account</button> <br><br>
+    <p id="xrp">Have an Existing Account......</p> <button type="submit" id="xrt">Log In</button>
+
+    <div id="unt">
+      <div> <br>
+       <div id="bfr"><p id="mkn">Pioneering Innovation In The Banking Sector</p> </div>
+        <p id="mkj">With multiple awards over the years <br> ACEDU continues to distinguish itself in the financial
+          service industry across Africa. We are at the forefront of innovation on the continent <br> as we aim to
+          deliver excellent services to our customers.
+        </p>
+      </div>
+    </div>
+    <br> <br> <br> <br> <br>
+  </form>
+
+  <form id="form-Three"><br>
+    <div id="rio">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="shead" id="deah">DEPOSIT OR WITHDRAW FUNDS</h2><br>
+          <div class="form-group row">
+            <label for="newDeposit" class="col-sm-7 col-form-label">Deposit Amount:</label>
+            <div class="col-sm-3">
+              <input type="number" class="form-control" id="newDeposit">
+            </div>
+          </div><br>
+          <div class="form-group row">
+            <label for="newWithdraw" class="col-sm-7 col-form-label">Withdrawal Amount:</label>
+            <div class="col-sm-3">
+              <input type="number" class="form-control" id="newWithdraw" style="width:120px;">
+            </div>
+          </div> <br>
+          <form id="confirmation">
+            <div class="form-group" id="pass">
+              <b> <label for="passWord1" class="col-sm-7 col-form-label">Your Password For Confirmation</label></b>
+              <input type="password" class="form-control" id="passWord1" style="width:120px;" required>
+            </div>
+          </form><br><br>
+          <button class="btn btn-dark" id="butt" type="submit" name="button">Process Transaction</button>
+        </div>
+      </div>
+      <div class="bankDiv transactionForm col-sm-7 " id="was">
+        <select class="accSelect" name="">
+        </select>
+        <div id="showInfo">
+          <p>Name: <span></span></p>
+        </div>
+      </div>
+      <div class="oppp">
+        <div class="balanceDisp" class="well">
+          <h1 class="header">PROFILE INFORMATION</h1>
+          <hr>
+          <p class="allf"><b> Name: <span class="accName"></span></p>
+          <p class="allf"><b> Bvn Number: <span class="bvnNum"></span></p>
+          <p class="allf"><b> Current Balance: <span class="currBal"></span></p>
+          <p class="allf"><b> Account History: <span class="accHistory"></span></p><br>
+          <div id="buttons">
+          </div><br>
+        </div>
+      </div><br>
+    </div>
+
+  </form>
+
+  <form id="form-Two">
+    <h3 id="wee">Instant Account Opening</h3>
+    <p id="notice">INSUFFICIENT FUNDS!!</p>
+    <p id="notice2">INITIAL DEPOSIT CANNOT BE LESS THAN $1000!</p>
+    <div id="cdf"> <br>
+      <div class="card">
+        <div class="card-body">
+          <h2 class="shead">REGISTER A NEW ACCOUNT</h2><br>
+          <div class="form-group row">
+            <label for="inputName" class="col-sm-5 col-form-label">Account Name:</label>
+            <div class="col-sm-2">
+              <input type="text" class="form-control" id="inputName" style="width:180px;" required>
+            </div> <br> <br>
+            <div class="form-group row">
+              <label for="currentAddress" class="col-sm-5 col-form-label">Current Address:</label>
+              <div class="col-sm-2">
+                <input type="text" class="form-control" id="currentAddress" style="width:180px;" required>
+              </div> <br> <br>
+              <div class="form-group row">
+                <label for="passWord" class="col-sm-5 col-form-label">Account PassWord:</label>
+                <div class="col-sm-2">
+                  <input type="password" class="form-control" id="passWord" style="width:180px;" required>
+                </div>
+              </div> <br> <br>
+              <div class="form-group row">
+                <label for="initialDeposit" class="col-sm-5 col-form-label">Initial Deposit:</label>
+                <div class="col-sm-5">
+                  <input type="number" class="form-control" id="initialDeposit" style="width:130px;" required>
+                </div>
+              </div><br><br><br>
+              <button class="btn btn-dark" type="submit" name="button" id="fjy">Create Account</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bankDiv transactionForm col-sm-7 " id="was">
+        <select class="accSelect" name="">
+        </select>
+        <div id="showInfo">
+          <p>Name: <span></span></p>
+        </div>
+      </div>
+      <div class="oppp">
+        <div class="balanceDisp" class="well">
+          <h1 class="header">PROFILE INFORMATION</h1>
+          <hr>
+          <p class="allf"><b> Name: <span class="accName"></span></p>
+          <p class="allf"><b> Bvn Number: <span class="bvnNum"></span></p>
+          <p class="allf"><b> Current Balance: <span class="currBal"></span></p>
+          <p class="allf"><b> Account History: <span class="accHistory"></span></p>
+          <div id="buttons">
+          </div><br>
+
+          <div class="radio" id="radd">
+            <label for="">Proceed in Withdrawal & others....</label>
+            <input type="radio" name="accountType" value="current">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+
+
+
+
+
+
+</body>
+
+</html>
